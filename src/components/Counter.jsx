@@ -14,12 +14,14 @@ export default function Counter() {
         value={counter}
       />
       <button
+        type="button"
         className="w-10 h-10 border rounded transition hover:bg-gray-100"
         onClick={decrement}
       >
         -
       </button>
       <button
+        type="button"
         className="w-10 h-10 border rounded transition hover:bg-gray-100"
         onClick={increment}
       >

@@ -6,7 +6,7 @@ import Async from '@/components/Async'
 import Loading from '@/components/Loading'
 
 export default function HelloWorld() {
-  const user = useMemo(() => getUser('asynched'), [])
+  const userPromise = useMemo(() => getUser('asynched'), [])
 
   return (
     <div className="mb-8 text-center">
@@ -18,13 +18,14 @@ export default function HelloWorld() {
       </h2>
       <p>If you feel like you like it, follow me on Github!</p>
       <Async
-        promise={user}
+        promise={userPromise}
         fallback={<Loading />}
         resolve={(user) => (
           <p>
             <a
               href="https://github.com/asynched"
               target="_blank"
+              rel="noreferrer"
               className="text-purple-600 hover:underline"
             >
               @asynched
