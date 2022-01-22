@@ -6,7 +6,7 @@ export default function Async({ promise, fallback, resolve, reject }) {
 
   useEffect(() => {
     promise.then(setData).catch(setError)
-  }, [])
+  }, [promise])
 
   if (error) {
     return reject(error)
