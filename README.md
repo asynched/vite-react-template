@@ -1,6 +1,6 @@
 # vite-react-template
 
-A react-vite app preconfigured template with aliases, folder structure, code-splitting and tailwind! atom_symbol
+A react-vite app preconfigured template with aliases, folder structure, code-splitting and tailwind! ⚛️
 
 ## Author
 
