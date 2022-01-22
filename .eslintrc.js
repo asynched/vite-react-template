@@ -2,8 +2,13 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    node: true,
   },
-  extends: ['eslint:recommended', 'plugin:react/recommended'],
+  extends: [
+    'eslint:recommended',
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+  ],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -13,5 +18,4 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {},
-  ignore: ['tailwind.config.js', 'postcss.config.js', '.eslintrc.js'],
 }
