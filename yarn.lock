@@ -445,6 +445,13 @@ binary-extensions@^2.0.0:
   resolved "https://registry.npmjs.org/binary-extensions/-/binary-extensions-2.2.0.tgz"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
+blackbox.js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/blackbox.js/-/blackbox.js-1.0.0.tgz#d434afe931680db2f302bd45896b86540b7da851"
+  integrity sha512-GbLEGqx2s1b/wjG+3mFd8N+/7Mis0xO55+UNPTCCN+nzi28TLc6NEz8XgWnup6E8YZj7jiDhhmhhFpme//rdJg==
+  dependencies:
+    react "^17.0.2"
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.11.tgz"

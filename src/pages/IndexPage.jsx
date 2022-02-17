@@ -1,13 +1,15 @@
 import React from 'react'
 
+import Heading from '@/components/ui/Heading'
 import Counter from '@/components/Counter'
-import HelloWorld from '@/components/HelloWorld'
+import DependenciesList from '@/components/DependenciesList'
 
 export default function IndexPage() {
   return (
-    <main className="w-full h-screen flex flex-col items-center justify-center">
-      <HelloWorld />
+    <main className="mx-auto w-[80%] max-w-screen-sm min-h-screen flex flex-col justify-center text-gray-700">
+      <Heading />
       <Counter />
+      <DependenciesList />
     </main>
   )
 }
